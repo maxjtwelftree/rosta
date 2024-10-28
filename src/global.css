@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-black: #0A0A0A;
+  --secondary-black: #111111;
+  --accent-purple: #7C3AED;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--primary-black);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* Update text styles to match Shaped.ai */
+.hero-title {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Modern button styles */
+.primary-button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: all 0.2s ease;
+}
+
+/* Rest of your existing CSS... */
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0A0A0A;
+  color: white;
+  line-height: 1.5;
+}
+
+/* Modern scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Focus states */
+:focus {
+  outline: none;
+  ring: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+.blur-3xl {
+  filter: blur(64px);
+}
+
+.backdrop-blur-3xl {
+  backdrop-filter: blur(64px);
+}
+
+/* Optional: Add this if you want to ensure the background doesn't cause horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Gradient effects */
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0.6));
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Card hover effects */
+.hover\:border-white\/20:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .text-5xl {
+    font-size: 3rem;
+  }
+}
+.floating-gradient {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
+
+/* Ensure proper stacking context */
+.relative {
+  position: relative;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+/* Prevent text selection */
+.benefit-card {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
